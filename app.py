@@ -3,8 +3,12 @@ import pickle
 import nltk
 import string
 from nltk.stem.porter import PorterStemmer
-from nltk.corpus import stopwords
 from PIL import Image
+
+from nltk.corpus import stopwords
+nltk.download("stopwords")
+stpwrd = stopwords.words("english")
+
 
 ps = PorterStemmer()
 
