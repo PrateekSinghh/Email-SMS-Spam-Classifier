@@ -44,7 +44,7 @@ def transform_text(text):
 
 #importing files
 tf = pickle.load(open("Vectorizer.pkl","rb"))
-model = pickle.load(open("model.pkl","rb"))
+model = pickle.load(open("Model.pkl","rb"))
 
 
 #Setting Title
