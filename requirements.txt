@@ -4,6 +4,6 @@ matplotlib
 seaborn
 nltk
 wordcloud
-Scikit-learn
+Scikit-learn == 1.3.1
 streamlit
 Pillow
