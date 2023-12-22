@@ -57,7 +57,7 @@ email = st.text_area(
     placeholder="Enter Text"
 )
 
-def endpoint(input):
+def endpoint(email):
   transformed_text = transform_text(email)
   vector_input = tf.transform([transformed_text])
   result = model.predict(vector_input)
