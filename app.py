@@ -4,8 +4,9 @@ import nltk
 import string
 from nltk.stem.porter import PorterStemmer
 from PIL import Image
-
 from nltk.corpus import stopwords
+
+nltk.download("punkt")
 nltk.download("stopwords")
 stpwrd = stopwords.words("english")
 
